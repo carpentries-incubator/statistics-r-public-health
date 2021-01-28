@@ -1,4 +1,4 @@
-Statistical analysis for public health
+# Statistical analysis for public health
 
 ## Contributing
 
