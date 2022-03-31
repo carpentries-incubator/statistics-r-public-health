@@ -18,61 +18,35 @@ Interested in teaching these materials? See our [instructor notes](guide) and ge
 either by [email](mailto:{{site.email}}) or by [submitting an issue](https://github.com/carpentries-incubator/statistics-r-public-health/issues).
 
 
-> ## Frequently Asked Questions
-> Read our [FAQ](/statistics-r-public-health/faq/) to learn more about Data Carpentry's Metagenomics workshop, as an Instructor or a workshop host.
-{: .callout}
-
-> ## Getting Started
+> ## Getting started
 >
-> This lesson assumes that learners have no prior experience with the tools covered in the workshop. 
-> However, learners are expected to have some familiarity with biological concepts,
-> including the 
-> concept of microbiome. Participants should bring their own laptops and plan to participate actively. 
+> To get started, see the instructions in the [setup page](setup). 
+> There you will learn how to obtain the data and packages used in this lesson.
 > 
-> To get started, follow the directions in the [Setup](setup.html) tab to 
-> get access to the required software and data for this workshop.
-> 
+> **Prerequisites**  
+> This workshop does not require a formal background in statistics. This workshop does require:
+> * Working copies of R and RStudio that are up-to-date. See [here](https://datacarpentry.org/R-ecology-lesson/) for installation and update instructions.
+> * An understanding of how to use the Tidyverse packages to summarise and manipulate data in R.
+> See these episodes on [data handling](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html) and
+> [data manipulation](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html).
+> * An understanding of how to use the ggplot2 package to plot data in R.
+> See [this episode](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html) on data visualisation.
 {: .prereq}
-
-> ## Data
-> 
-> This workshop uses data from enviromental experiment: [Genomic adaptations in information 
-> processing underpin trophic strategy in a whole-ecosystem nutrient 
-> enrichment experiment](https://elifesciences.org/articles/49816), by Jordan G Okie et al.
-> In this research, authors compared the differences between the microbial community 
-> in its natural, oligotrophic, phosphorus-deficient 
->environment, a pond from the Cuatro Ciénegas Basin (CCB), and the same microbial 
->community under a fertilization treatment.
->
-> All of the data used in this workshop can be downloaded from
->  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4285900.svg)](https://doi.org/10.5281/zenodo.4285900)
-> More information about this data is available on the [Data page](https://carpentries-incubator.github.io/metagenomics-workshop/data/index.html).
-{: .prereq} 
 
 # Workshop Overview 
 
 | Lesson    | Overview | Estimated time|
 | ------- | ---------- | ---------- |
-| [Project organization and management](https://carpentries-incubator.github.io/organization-metagenomics/) | Learn how to structure your metadata, organize and document your metagenomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|1:30 hr|  
-| [Introduction to the command line](https://carpentries-incubator.github.io/shell-metagenomics/) |  Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. | 4:00 hr| 
-|[Introduction to R for metagenomics](https://carpentries-incubator.github.io/introduction-to-R-for-metagenomics/) | Use R studio to manage several data types and data strcutures. | 1:00 hr| 
-|[Data processing and visualization for metagenomics](https://carpentries-incubator.github.io/metagenomics/) | Use command-line tools to perform quality control, metagenomic assembly, metagenomic binning, taxonomic assignment, and diversity exploration. | 6:30 hr| 
+| [Statistical thinking for public health](https://carpentries-incubator.github.io/statistical-thinking-public-health/) | Gain an understanding of statistical concepts commonly encountered when applying regression models: mean estimation, linear association and mean prediction.|2:30 hr|  
+| [Simple linear regression for public health](https://carpentries-incubator.github.io/simple-linear-regression-public-health/) | Gain an understanding of the simple linear regression model, apply this modelling framework, make predictions from this model and learn to assess the assumptions of the simple linear regression model. | 4:00 hr| 
+|[Multiple linear regression for public health](https://carpentries-incubator.github.io/multiple-linear-regression-public-health/) | Gain an understanding of the multiple linear regression model, apply this modelling framework, make predictions from this model and learn to extend the simple linear regression model assumptions to the multiple linear regression model. | 2:45  hr| 
+|[Logistic regression for public health](https://carpentries-incubator.github.io/logistic-regression-public-health/) | Gain an understanding of binary response variables and the logistic regression model, apply this modelling framework, make predictions from this model and learn to assess the assumptions of the logistic regression model. | **??** hr| 
 
-<!--
-# Optional Additional Lessons
-
-| Lesson | Overview |
-| ------- | -------- |
-| [16S genomics](https://datacarpentry.org/genomics-r-intro/) | Use R to analyze and visualize between-sample variation. |
-!-->
-
-# Lessons Reference
-The content of this page and three of the lessons presented on this workshop are adapted from lessons on the [Data Carpenty Genomics Workshop](https://datacarpentry.org/genomics-workshop/).
+# References
+These writing of these materials was guided by the book ["Regression and Other Stories"](https://avehtari.github.io/ROS-Examples/). The workshop makes extensive use of the `jtools` and `interactions` packages, developed by [Jacob Long](https://jacob-long.com/). 
 
 # Teaching Platform
-This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
-instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
-If you want to run your own instance of the server used for this workshop, follow the directions in the [Setup](setup.html) tab. 
+This workshop is designed to be run in RStudio or RStudio cloud, see the [setup page](setup).
 
 ## Citation 
-Preparing to submit to [JOSE](paper.md)
+A [manuscript](paper.md) is in preparation for submission to [JOSE](https://jose.theoj.org/).
