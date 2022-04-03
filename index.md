@@ -43,7 +43,7 @@ either by [email](mailto:{{site.email}}) or by [submitting an issue](https://git
 |[Logistic regression for public health](https://carpentries-incubator.github.io/logistic-regression-public-health/) | Gain an understanding of binary response variables and the logistic regression model, apply this modelling framework, make predictions from this model and learn to assess the assumptions of the logistic regression model. | **??** hr| 
 
 # References
-These writing of these materials was guided by the book ["Regression and Other Stories"](https://avehtari.github.io/ROS-Examples/). The workshop makes extensive use of the `jtools` and `interactions` packages, developed by [Jacob Long](https://jacob-long.com/). 
+The writing of these materials was guided by the book ["Regression and Other Stories"](https://avehtari.github.io/ROS-Examples/). The workshop makes extensive use of the `jtools` and `interactions` packages, developed by [Jacob Long](https://jacob-long.com/). 
 
 # Teaching Platform
 This workshop is designed to be run in RStudio or RStudio cloud, see the [setup page](setup).
