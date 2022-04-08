@@ -1,0 +1,14 @@
+Type: project
+Description: RStudio project for the workshop.
+Depends:
+  "NHANES",
+  "RNHANES",
+  "ggplot2",
+  "patchwork",
+  "jtools",
+  "interactions",
+  "dplyr",
+  "tidyr",
+  "Hmisc",
+  "boot",
+  "arm"

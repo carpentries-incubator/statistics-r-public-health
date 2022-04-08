@@ -6,12 +6,12 @@
 .jekyll-cache/
 __pycache__
 _site
-.Rproj.user
-.Rhistory
-.RData
+workshop-project/.Rproj.user
+workshop-project/.Rhistory
 .bundle/
 .vendor/
 vendor/
 .docker-vendor/
 Gemfile.lock
 .*history
+.Rproj.user
