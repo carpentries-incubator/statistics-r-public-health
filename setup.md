@@ -23,7 +23,11 @@ To install the required packages, please follow the following steps:
 1. Launch the RStudio Project by double-clicking on the `workshop-project.RProj` file in `public-health-stats`. 
 2. Allow `renv` to install the required packages locally by typing `renv::activate()` in the console.
 3. When the prompt comes up, answer it with `Y`. 
-4. After installation is completed, you are set up for the workshop!
+4. After installation has completed, load the required packages by typing `source("scripts/load_packages.R")` into the console.
+5. You are now set up for the workshop! 
+
+Note: the workshop data should be in your Environment under the name `dat`. If you would like more information 
+about the data, see the **FIXME** page.
 
 
 
