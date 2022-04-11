@@ -50,3 +50,5 @@ This workshop is designed to be run in RStudio or RStudio cloud, see the [setup 
 
 ## Citation 
 A [manuscript](paper.md) is in preparation for submission to [JOSE](https://jose.theoj.org/).
+
+{% include links.md %}
