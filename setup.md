@@ -1,7 +1,7 @@
 ---
 title: Setup
 ---
-To get set up for this workshop, there are a few steps that you will need to follow:
+To get set up for this workshop, there are a few steps that you will need to follow, as explained below:
 1. Install R and RStudio, or update these if you already have the programs installed. 
 2. Download the RStudio Project environment for this workshop.
 3. Set up the packages used in this workshop using `renv`.
@@ -14,7 +14,7 @@ To ensure that you have the data and packages used in this workshop, you can use
 Please follow the following steps:
 1. Download the environment as a zipped folder [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcarpentries-incubator%2Fstatistics-r-public-health%2Ftree%2Fgh-pages%2Fworkshop-project). 
 2. Create a folder on your computer for the workshop, e.g. `public-health-stats` in your documents folder.
-2. Unzip the downloaded folder into the `public-health-stats` folder.
+3. Unzip the downloaded folder into the `public-health-stats` folder.
 
 ### Setting up the packages used in the workshop
 To ensure that everyone is using the same versions of packages used in this workshop, as well as to avoid clashes with 
