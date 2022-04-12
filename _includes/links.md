@@ -51,3 +51,7 @@
 [simple-reg]: https://carpentries-incubator.github.io/simple-linear-regression-public-health/
 [multi-reg]: https://carpentries-incubator.github.io/multiple-linear-regression-public-health/
 [logis-reg]: https://carpentries-incubator.github.io/logistic-regression-public-health/
+[stat-think-ref]: https://carpentries-incubator.github.io/statistical-thinking-public-health/reference
+[simple-reg-ref]: https://carpentries-incubator.github.io/simple-linear-regression-public-health/reference
+[multi-reg-ref]: https://carpentries-incubator.github.io/multiple-linear-regression-public-health/reference
+[logis-reg-ref]: https://carpentries-incubator.github.io/logistic-regression-public-health/reference
