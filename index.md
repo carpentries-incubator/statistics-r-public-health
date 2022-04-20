@@ -25,7 +25,7 @@ either by [email](mailto:{{site.email}}) or by [submitting an issue](https://git
 > 
 > **Prerequisites**  
 > This workshop does not require a formal background in statistics. This workshop does require:
-> * Working copies of R and RStudio that are up-to-date. See [here](https://datacarpentry.org/R-ecology-lesson/) for installation and update instructions.
+> * Working copies of R and RStudio that are up-to-date. See the [setup page](setup) for installation and update instructions.
 > * An understanding of how to use the Tidyverse packages to summarise and manipulate data in R.
 > See these episodes on [data handling](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html) and
 > [data manipulation](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html).
