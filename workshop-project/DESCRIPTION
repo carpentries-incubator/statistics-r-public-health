@@ -1,14 +1,14 @@
 Type: project
 Description: RStudio project for the workshop.
-Depends:
+Imports:
   "NHANES",
   "RNHANES",
   "ggplot2",
   "patchwork",
-  "jtools",
   "interactions",
   "dplyr",
   "tidyr",
   "Hmisc",
   "boot",
   "arm"
+Remotes: jacob-long/jtools

@@ -568,11 +568,11 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "jtools",
       "RemoteUsername": "jacob-long",
-      "RemoteRef": "HEAD",
+      "RemoteRepo": "jtools",
+      "RemoteRef": "master",
       "RemoteSha": "412b85303f7208f66898e5ce85d7aafe8063a2da",
-      "Hash": "926ec7367ea065dacbcf0f0b9426edee",
+      "Hash": "e46c82800829935179cc1a4014b8dd38",
       "Requirements": [
         "crayon",
         "generics",
@@ -753,10 +753,10 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.0.2",
+      "Version": "2.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6d3bef2e305f55c705c674653c7d7d3d",
+      "Hash": "b9621e75c0652041002a19609fb23c5a",
       "Requirements": [
         "askpass"
       ]
@@ -1164,10 +1164,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.32",
+      "Version": "0.33",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0498af3034691dde715dcd86198efe75",
+      "Hash": "1a666f915cd65072f4ccf5b2888d5d39",
       "Requirements": []
     },
     "xml2": {
